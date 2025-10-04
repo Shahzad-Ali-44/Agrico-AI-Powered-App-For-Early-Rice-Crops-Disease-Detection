@@ -2,16 +2,16 @@
 
 Agrico is an AI-powered web application designed to detect early rice crop diseases and provide effective treatment recommendations. This innovative solution helps farmers improve crop health and yield by leveraging deep learning models.
 
-## 🌿 Features
+##  Features
 
-- **🚀 AI-Powered Detection:** Achieves 89% accuracy using a CNN model for early disease identification.
-- **💊 Treatment Recommendations:** Offers actionable insights for disease management.
-- **📱 Fully Responsive:** Optimized for seamless usage across all devices.
-- **📧 Contact Form:** A fully functional form to get in touch with us.
-- **📰 Newsletter Subscription:** Stay informed with the latest agricultural updates.
+- ** AI-Powered Detection:** Achieves 89% accuracy using a CNN model for early disease identification.
+- ** Treatment Recommendations:** Offers actionable insights for disease management.
+- ** Fully Responsive:** Optimized for seamless usage across all devices.
+- ** Contact Form:** A fully functional form to get in touch with us.
+- ** Newsletter Subscription:** Stay informed with the latest agricultural updates.
 
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 **Clone the Repository**:
    ```bash
@@ -52,26 +52,26 @@ The contact form uses SMTP to send emails directly. Configure your email setting
    - The contact form uses SMTP to send messages directly to your email.
    - Professional email templates are automatically generated.
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 - **Frontend:** Next.js
 - **Backend:** FastAPI (Deployed)
 - **Model:** Convolutional Neural Network (CNN) with 89% accuracy (Deployed)
 
 
-## 🚀 Usage
+##  Usage
 
 1. Upload an image of the rice crop.
 2. The AI model will analyze and detect potential diseases.
 3. Receive treatment suggestions and actionable insights.
 
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
 
 
-## 📜 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
