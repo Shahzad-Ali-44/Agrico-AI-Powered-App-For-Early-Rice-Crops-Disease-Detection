@@ -4,11 +4,12 @@ Agrico is an AI-powered web application designed to detect early rice crop disea
 
 ##  Features
 
-- ** AI-Powered Detection:** Achieves 89% accuracy using a CNN model for early disease identification.
-- ** Treatment Recommendations:** Offers actionable insights for disease management.
-- ** Fully Responsive:** Optimized for seamless usage across all devices.
-- ** Contact Form:** A fully functional form to get in touch with us.
-- ** Newsletter Subscription:** Stay informed with the latest agricultural updates.
+-  AI-Powered Detection: Achieves 89% accuracy using a CNN model for early disease identification.
+-  Treatment Recommendations: Offers actionable insights for disease management.
+-  Fully Responsive: Optimized for seamless usage across all devices.
+-  Contact Form: A fully functional form to get in touch with us.
+-  Newsletter Subscription:
+- Stay informed with the latest agricultural updates.
 
 
 ##  Installation and Setup
