@@ -36,7 +36,7 @@ const AboutSectionOne = () => {
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 sm:text-xl md:text-2xl max-w-4xl mx-auto">
-            We provide farmers with cutting-edge tools and insights to make informed decisions, increase yields, and promote sustainable farming practices for a better tomorrow.
+            AGRICO delivers powerful AI-driven solutions to help farmers optimize crop health, boost productivity, and cultivate a more sustainable future.
           </p>
         </div>
 

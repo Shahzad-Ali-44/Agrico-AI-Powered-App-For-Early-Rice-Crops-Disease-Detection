@@ -17,23 +17,23 @@ const Hero = () => {
       if (startTime === null) startTime = currentTime;
       const timeElapsed = currentTime - startTime;
       const progress = Math.min(timeElapsed / duration, 1);
-      
+
       const easeInOutCubic = (t: number) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
       const ease = easeInOutCubic(progress);
-      
+
       window.scrollTo(0, startPosition + distance * ease);
-      
+
       if (progress < 1) {
         animationId = requestAnimationFrame(animation);
       } else {
         animationId = null;
       }
     };
-    
+
     if (animationId) {
       cancelAnimationFrame(animationId);
     }
-    
+
     try {
       animationId = requestAnimationFrame(animation);
     } catch (error) {
@@ -50,19 +50,18 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[900px] text-center">
-                <div className="mb-8 inline-flex items-center rounded-full bg-lime-100 px-4 py-2 text-sm font-medium text-lime-800 dark:bg-lime-900/30 dark:text-lime-300">
-                   AI-Powered Agriculture Solution
+                <div className="mb-8 mt-8 md:mt-0 inline-flex items-center rounded-full bg-lime-100 px-4 py-2 text-sm font-medium text-lime-800 dark:bg-lime-900/30 dark:text-lime-300">
+                  AI-Powered Agriculture Solution
                 </div>
                 <h1 className="mb-8 text-3xl font-bold leading-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight max-w-5xl mx-auto">
-                  Revolutionize Agriculture with{" "}
+                  Modernize Agriculture{" "}
+                  <br />
                   <span className="bg-gradient-to-r from-lime-600 to-green-600 bg-clip-text text-transparent">
-                    Advanced AI
+                    with AGRICO AI
                   </span>
                 </h1>
                 <p className="mb-10 text-lg leading-relaxed text-gray-600 dark:text-gray-300 sm:text-xl md:text-2xl max-w-4xl mx-auto">
-                  Detect rice crop diseases instantly with our cutting-edge AI technology. 
-                  <br className="hidden sm:block" />
-                  Ensure healthier crops, higher yields, and sustainable farming practices.
+                  Upload a photo of a rice leaf and get instant disease diagnosis. AGRICO AI identifies rice crop diseases and provides treatment recommendations to help you protect your crops.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0">
                   <Link
@@ -84,7 +83,7 @@ const Hero = () => {
                     }}
                   >
                     <span className="relative z-10 flex items-center">
-                       Try Now
+                      Try Now
                       <svg className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>

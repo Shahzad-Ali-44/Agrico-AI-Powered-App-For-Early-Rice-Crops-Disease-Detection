@@ -54,7 +54,7 @@ const Testimonials = () => {
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 sm:text-xl md:text-2xl max-w-4xl mx-auto">
-            Hear from farmers, agricultural experts, and environmental advocates who trust AGRICO for their crop health needs.
+            Hear from farmers, agricultural experts, and environmental advocates who trust AGRICO for their rice crop health needs.
           </p>
         </div>
 

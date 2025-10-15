@@ -14,7 +14,7 @@ const Features = () => {
               Advanced Disease Detection
             </h2>
             <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 sm:text-xl md:text-2xl max-w-3xl mx-auto">
-              Upload a rice leaf image and get instant, accurate disease diagnosis with our cutting-edge AI technology.
+              Experience the power of artificial intelligence in agriculture. Our advanced deep learning models analyze rice leaf images to detect diseases with precision and speed.
             </p>
           </div>
           
